@@ -183,6 +183,7 @@ html{
     color: #fff;
     width:100%;
     text-align: center;
+    text-shadow: 0 0 1px black;
 }
 
 #slider .text-heading{
@@ -358,6 +359,15 @@ html{
     width: 100%
 }
 
+.contact-infor a {
+    color: #0000ed;
+    opacity: 0.6;
+}
+
+.contact-infor a:hover{
+    opacity: 1;
+}
+
 .row::after{
     content: "";
     display:block;
@@ -375,6 +385,8 @@ html{
     font-size: 15px;
     padding: 8px 16px;
     float: right;
+    text-transform: uppercase;
+    -webkit-appearance: none;
 }
 
 .form-submit:hover{
